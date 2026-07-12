@@ -1,0 +1,50 @@
+{
+  "version": "2026-07-12-rational-v5",
+  "unique": {
+    "epsilon_R": "0.1024756190168075228998451658",
+    "epsilon_I": "0.07307238160252154687451293138",
+    "gamma_reported": "0.0000687793",
+    "unique_base_upper": "1.306969598"
+  },
+  "lifting": {
+    "gamma_old": "1/15218",
+    "gamma_new": "0.0000687793",
+    "delta_old_lower": "0.00000321978491531273261",
+    "delta_old_upper": "0.00000321978491531273262",
+    "delta_new_lower": "0.00000338183369577144614",
+    "delta_new_upper": "0.00000338183369577144615",
+    "delta_safe": "0.00000338183369",
+    "eta_safe": "0.000000364",
+    "old_base_upper": "1.307031593710",
+    "new_limiting_base_upper": "1.307031577907",
+    "safe_general_base_upper": "1.307031578",
+    "relative_improvement_lower": "0.0503",
+    "old_unique_base_upper": "1.306972376566",
+    "unique_relative_improvement_lower": "0.04668"
+  },
+  "series": {
+    "log_terms": 90,
+    "exp_terms": 90
+  },
+  "reported_intervals": {
+    "A_lower": "0.0000997582178549",
+    "A_upper": "0.0000997582178550",
+    "P_reg_lower": "0.0000249890303097",
+    "P_reg_upper": "0.0000249890303098",
+    "S_lower": "0.00235445147822",
+    "S_upper": "0.00235445147823",
+    "b1_lower": "0.00114549739595",
+    "b1_upper": "0.00114549739597",
+    "b0_lower": "0.00363196877285",
+    "b0_upper": "0.00363196877287",
+    "bT_lower": "-0.01318180201459",
+    "bT_upper": "-0.01318180201458",
+    "lambda_lower": "11.4827371678",
+    "lambda_upper": "11.4827371679",
+    "gamma_star_lower": "0.000068779380458836",
+    "gamma_star_upper": "0.000068779380458837",
+    "tight_i1_lower": "0.060043244708778326",
+    "tight_i1_upper": "0.060043244708778327",
+    "safe_branch_margin_lower": "0.0000000000269"
+  }
+}
