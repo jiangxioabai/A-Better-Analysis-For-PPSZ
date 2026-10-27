@@ -1,0 +1,198 @@
+{
+  "certificate_version": "2026-10-27-structural-repair-integrated-v1",
+  "publication_status": "local integration bundle; not claimed published to GitHub",
+  "exact_inputs": {
+    "epsilon_R": "1/10",
+    "epsilon_I": "0.07307238160252154687451293138",
+    "rho": "17/19",
+    "conditional_factor": "125/109",
+    "cleanup_used": "1.037",
+    "entropy_bound": "0.006374",
+    "entropy_used": "0.006378",
+    "gamma_target": "0.0000687793",
+    "eta_target": "0.000000364",
+    "separator": "0.00000338183369",
+    "delta_old_lower": "0.00000321978491531273261",
+    "delta_old_upper": "0.00000321978491531273262",
+    "delta_target_lower": "0.00000338183369577144614",
+    "delta_target_upper": "0.00000338183369577144615"
+  },
+  "status": "PASS: exact rational arithmetic checks only; not a proof checker",
+  "series_terms": 90,
+  "checks": [
+    "series tail ratio < 1/7 at k=102",
+    "sum_d (d+1)^(d+1)/(d+3)^(d+3) < 0.0545",
+    "conditional amplification = 125/109",
+    "linear component densities are strictly positive",
+    "refined cleanup loss constant < 1.037",
+    "moments of phi",
+    "triangle fourth moment covered",
+    "4-cycle fourth moment covered",
+    "log(2) > 0.6931",
+    "KL per edge < 0.006374 epsilon_R^2",
+    "regular parameter inside printed 0.1 range",
+    "irregular density parameter inside admissible range",
+    "high-density threshold condition",
+    "A > P > 0",
+    "coefficient signs",
+    "dual i0 slack > 0",
+    "dual TwoCC slack > 0",
+    "repaired gain exceeds target by more than 9.6e-8",
+    "original target still exceeds published bonus",
+    "lifting high-branch margin > 2.69e-11",
+    "lifting unique-residual margin > 2.69e-11",
+    "unique target base < 1.306969598",
+    "general target base < 1.307031578",
+    "relaxed equality profile lies in (0,1)",
+    "old lifting root lower endpoint has negative sign",
+    "old lifting root upper endpoint has positive sign",
+    "target lifting root lower endpoint has negative sign",
+    "target lifting root upper endpoint has positive sign"
+  ],
+  "outward_decimal_enclosures": {
+    "epsilon_R": [
+      "0.10000000000000000000000",
+      "0.10000000000000000000000"
+    ],
+    "epsilon_I": [
+      "0.07307238160252154687451",
+      "0.07307238160252154687452"
+    ],
+    "rho": [
+      "0.89473684210526315789473",
+      "0.89473684210526315789474"
+    ],
+    "conditional_factor": [
+      "1.14678899082568807339449",
+      "1.14678899082568807339450"
+    ],
+    "cleanup_bound": [
+      "1.03637614678899082568807",
+      "1.03637614678899082568808"
+    ],
+    "cleanup_used": [
+      "1.03700000000000000000000",
+      "1.03700000000000000000000"
+    ],
+    "series_upper": [
+      "0.05446131774951906343471",
+      "0.05446131774951906343472"
+    ],
+    "KL_coefficient_upper": [
+      "0.00637395702630276270983",
+      "0.00637395702630276270984"
+    ],
+    "cL": [
+      "0.00010492000000000000000",
+      "0.00010492000000000000000"
+    ],
+    "A": [
+      "0.00009387578947368421052",
+      "0.00009387578947368421053"
+    ],
+    "threshold": [
+      "0.00020861286549707602339",
+      "0.00020861286549707602340"
+    ],
+    "penalty": [
+      "0.00001935598003077870113",
+      "0.00001935598003077870114"
+    ],
+    "cT": [
+      "0.00302911695303416376704",
+      "0.00302911695303416376705"
+    ],
+    "S": [
+      "0.00246586221619205850388",
+      "0.00246586221619205850389"
+    ],
+    "b0": [
+      "0.00363196877285601397166",
+      "0.00363196877285601397167"
+    ],
+    "b1": [
+      "0.00114549739595903309354",
+      "0.00114549739595903309355"
+    ],
+    "bT": [
+      "-0.01318180201458237930430",
+      "-0.01318180201458237930429"
+    ],
+    "dual_weight": [
+      "12.20226644570744588443510",
+      "12.20226644570744588443511"
+    ],
+    "dual_i0_slack": [
+      "0.00134097398093794778458",
+      "0.00134097398093794778459"
+    ],
+    "dual_TwoCC_slack": [
+      "0.01690730576579577592958",
+      "0.01690730576579577592959"
+    ],
+    "gamma_repair": [
+      "0.00006887533849169737751",
+      "0.00006887533849169737752"
+    ],
+    "gamma_target": [
+      "0.00006877930000000000000",
+      "0.00006877930000000000000"
+    ],
+    "gain_slack": [
+      "0.00000009603849169737751",
+      "0.00000009603849169737752"
+    ],
+    "unique_base": [
+      "1.30696959751624698244591",
+      "1.30696959751624698244592"
+    ],
+    "general_base": [
+      "1.30703157793120525344360",
+      "1.30703157793120525344361"
+    ],
+    "lifting_high_slack": [
+      "0.00000000002694152938422",
+      "0.00000000002694152938423"
+    ],
+    "lifting_residual_slack": [
+      "0.00000000002705058186497",
+      "0.00000000002705058186498"
+    ],
+    "equality_i1": [
+      "0.06012701446085224910548",
+      "0.06012701446085224910549"
+    ],
+    "A_minus_P": [
+      "0.00007451980944290550938",
+      "0.00007451980944290550939"
+    ],
+    "q0": [
+      "0.10764188156437232251442",
+      "0.10764188156437232251443"
+    ],
+    "eta_target": [
+      "0.00000036400000000000000",
+      "0.00000036400000000000000"
+    ],
+    "separator": [
+      "0.00000338183369000000000",
+      "0.00000338183369000000000"
+    ],
+    "eta_limit_old": [
+      "0.00000034658370651684573",
+      "0.00000034658370651684574"
+    ],
+    "limiting_base_old": [
+      "1.30703159370976208301135",
+      "1.30703159370976208301136"
+    ],
+    "eta_limit_target": [
+      "0.00000036402694215063354",
+      "0.00000036402694215063355"
+    ],
+    "limiting_base_target": [
+      "1.30703157790679660112482",
+      "1.30703157790679660112483"
+    ]
+  }
+}
